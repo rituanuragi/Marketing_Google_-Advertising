@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>F2 Fintech</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/logobackremover.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "SyF_SFDcLCFQkoGDh",
+            });
+        })();
+    </script>
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <div class="  bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="  position-relative p-0 first-div" id="home">
+            <nav class="navbar  navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0 mb-0 nav-bottom">
+                <a href="" class="navbar-brand p-0">
+                    <img class="logo-default.png" src="img/logobackremover.png" alt="Logo">
+                </a>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
+                    </div>
+            </nav>
+            <div class="   hero-header">
+
+                <div class="container  content-h">
+                    <div class="row g-5 align-items-start">
+                        <div class="col-lg-8 text-left text-lg-start">
+                            <div class="content-top ">
+                                <div class="text-top">
+                                    <h1 lass=" " style="color: rgb(10, 31, 49); white-space: nowrap;"><b>LOAN STARTING
+                                            FROM</b></h1>
+                                    <h1 class=" " style="font-size: 60px;">8.60% P.A.</h1>
+                                    <h5 class=" mb-4" style="color: rgb(10, 31, 49);white-space: nowrap;"><b>Better Loan
+                                            for your better self </b></h5>
+                                    <h6 class="fa fa-user" style="font-size: 17px;"><b class="mx-2 ">Happy Clients</b>
+                                    </h6>
+                                    <p style="color: #2c3ce3; font-size: 17px;"><b>11000+</b></p>
+                                    <h6 class="fas fa-calendar" style="font-size: 17px;"><b class="mx-2">Repayment
+                                            Period</b></h6>
+                                    <p style="color: #2c3ce3; font-size: 17px;"><b>1 - 20 yrs</b></p>
+                                    <h6 class="fas fa-check-circle" style="font-size: 17px;"><b class="mx-2">Loans
+                                            Disbursed</b></h6>
+                                    <p style="color: #2c3ce3; font-size: 17px;"><b>1,100 Cr</b></p>
+                                    <h6 class="bi bi-graph-up" style="font-size: 17px;"><b class="mx-2">Active Customer
+                                            Base</b></h6>
+                                    <p style="color: #2c3ce3; font-size: 17px;"><b>3000+</b></p>
+                                </div>
+                                <img src="./img/top-img.png" class="header-img">
+                                <div class="top-img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 ">
+                            <div class="form-card ">
+                                <h2 style="text-align: left; margin-bottom: -2px;"> GET LOAN</h2>
+                                <p style="color: white; padding-left: 4px; font-size: 15px;">Empower your financial
+                                    future with F2 Fintech</p>
+
+                                <form id="loanForm">
+                                    <div class="form-group">
+                                        <label for="name">Name</label>
+                                        <input type="text" name="name" id="getLoanFormName">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input type="email" name="email" id="getLoanFormEmail">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="contact">Contact Number</label>
+                                        <input type="tel" name="contact" id="getLoanFormContact">
+                                    </div>
+                                    <div class="form-terms">
+                                        <label>
+                                            <input type="checkbox" id="terms" name="terms">
+                                            I agree to the terms and
+                                            conditions</a>
+                                        </label>
+                                    </div>
+                                    <button type="submit" onclick="
+                                    sendMailGetLoan()">Apply Now</button>
+                                </form>
+
+                                <div id="submissionMessage"></div>
+
+                                <script>
+                                    document.getElementById('loanForm').addEventListener('submit', function (event) {
+                                        event.preventDefault();
+                                        const messageDiv = document.getElementById('submissionMessage');
+                                        messageDiv.style.display = 'block';
+                                        messageDiv.textContent = 'Form submitted';
+                                        messageDiv.style.color = 'white';
+                                        setTimeout(function () {
+                                            window.location.href = 'https://www.f2fintech.com/';
+                                        }, 5000);
+
+                                    });
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navbar & Hero End -->
+
+
+            <!-- About Start -->
+            <div class="  py-5 about-div" id="about">
+                <div class="container py-5 px-lg-5">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <h1 class="text-primary-gradient fw-medium">About Us</h1>
+
+                            <h5 class="mb-4 steps-text">Welcome to F2 Fintech. Your go-to place for choosing best loans
+                                in India.</h5>
+                            <p class="steps-para">We're F2Fintech, the one-stop destination for easing the loan process
+                                in India. We help
+                                you navigate the complex world of finance. We have you covered, regardless of the type
+                                of loan you require. We carefully consider your specific scenario to ensure you get the
+                                best possible offer.</p>
+                            <div class="row g-4 mb-4">
+                                <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+                                    <div class="d-flex">
+                                        <div class="ms-3 about-ele1">
+                                            <i class="fa fa-map-pin fa-2x text-primary-gradient flex-shrink-0 mt-1"></i>
+                                            <h2 class="mb-0" data-toggle="counter-up">400</h2>
+                                            <p class="text-primary-gradient mb-0">Location served</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+                                    <div class="d-flex">
+                                        <div class="ms-3 about-ele2">
+                                            <i class="fa fa-user fa-2x text-secondary-gradient flex-shrink-0 mt-1"></i>
+                                            <h2 class="mb-0" data-toggle="counter-up">14,000</h2>
+                                            <p class="text-secondary-gradient mb-0">Applications Recieved</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a id="popupButton"
+                                class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3 contact-upr-btn">Contact
+                                Us</a>
+                            <div id="popupForm" class="popup">
+                                <div class="card-form">
+                                    <div class="card-body">
+                                        <a class="fas fa user" id="closeButton"
+                                            style="padding-left: 230px; font-size: 30px;">
+                                            <span class="fa-times-circle text-white"></span>
+                                        </a>
+                                        <h5 class="card-title">Get Loan</h5>
+                                        <form id="loanForm1">
+                                            <div class="form-group" id="contactus">
+                                                <label for="name">Name</label>
+                                                <input type="text" style="color: black;" class="form-control"
+                                                    id="popUpFormName" name="name" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="email">Email address</label>
+                                                <input type="email" style="color: black;" class="form-control"
+                                                    id="popUpFormEmail" name="email" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="contact">Contact Number</label>
+                                                <input type="tel" style="color: black;" class="form-control"
+                                                    id="popUpFormContact" name="contact" required>
+                                            </div>
+                                            <div class="form-terms">
+                                                <label style="font-size: 12px;">
+                                                    <input type="checkbox" name="terms" required>
+                                                    I agree to the terms and
+                                                    conditions</a>
+                                                </label>
+                                            </div>
+                                            <button type="submit" onclick="sendMailPopUpForm()">Apply Now</button>
+                                        </form>
+                                        <div id="submissionMessage1"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <script>
+                                document.getElementById('loanForm1').addEventListener('submit', function (event) {
+                                    event.preventDefault();
+
+                                    const messageDiv = document.getElementById('submissionMessage');
+                                    messageDiv.style.display = 'block';
+                                    messageDiv.textContent = 'Form submitted';
+                                    setTimeout(function () {
+                                        window.location.href = 'https://www.f2fintech.com/';
+                                    }, 2000);
+
+                                });
+                            </script>
+
+                        </div>
+                        <div class="col-lg-6">
+                            <img class="img-fluid wow fadeInUp" data-wow-delay="0.5s" src="img/groupimg.jfif">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+
+            <!-- Features Start -->
+            <div class="  py-5 features-div" id="feature">
+                <div class="container py-5 px-lg-5">
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="text-primary-gradient fw-medium mb-5"><b>Trending Services</b></h1>
+                    </div>
+                    <div class="row g-3 fd">
+                        <div class="col-lg-3 col-md-6 wow fadeInUp fi" data-wow-delay="0.1s">
+                            <div class="feature-item bg-light rounded p-4">
+                                <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4"
+                                    style="width: 60px; height: 60px;">
+                                    <i class="fas fa-user text-white fs-4"></i>
+
+                                </div>
+                                <h5 class="mb-3">Personal Loan</h5>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp fi" data-wow-delay="0.3s">
+                            <div class="feature-item bg-light rounded p-4">
+                                <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4"
+                                    style="width: 60px; height: 60px;">
+                                    <i class="fas fa-briefcase text-white fs-4"></i>
+                                </div>
+                                <h5 class="mb-3">Business Loan</h5>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp fi" data-wow-delay="0.5s">
+                            <div class="feature-item bg-light rounded p-4">
+                                <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4"
+                                    style="width: 60px; height: 60px;">
+                                    <i class="fa fa-home text-white fs-4"></i>
+                                </div>
+                                <h5 class="mb-3">Home Loan</h5>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp fi" data-wow-delay="0.1s">
+                            <div class="feature-item bg-light rounded p-4">
+                                <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4"
+                                    style="width: 60px; height: 60px;">
+                                    <i class="fas fa-user-tie text-white fs-4"></i>
+                                </div>
+                                <h5 class="mb-3">Professional Loan</h5>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp fi" data-wow-delay="0.3s">
+                            <div class="feature-item bg-light rounded p-4">
+                                <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4"
+                                    style="width: 60px; height: 60px;">
+                                    <i class="fas fa-cogs text-white fs-4"></i>
+                                </div>
+                                <h5 class="mb-3">Machinery Loan</h5>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp fi" data-wow-delay="0.5s">
+                            <div class="feature-item bg-light rounded p-4">
+                                <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4"
+                                    style="width: 60px; height: 60px;">
+                                    <i class="fa fa-landmark text-white fs-4"></i>
+                                </div>
+                                <h5 class="mb-3">Loan Against Property</h5>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp fi" data-wow-delay="0.5s">
+                            <div class="feature-item bg-light rounded p-4">
+                                <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4"
+                                    style="width: 60px; height: 60px;">
+                                    <i class="fa fa-car text-white fs-4"></i>
+                                </div>
+                                <h5 class="mb-3">Auto Loan</h5>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp fi" data-wow-delay="0.5s">
+                            <div class="feature-item bg-light rounded p-4">
+                                <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4"
+                                    style="width: 60px; height: 60px;">
+                                    <i class="fas fa-stethoscope text-white fs-4"></i>
+                                </div>
+                                <h5 class="mb-3 ">Doctor Loan</h5>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Features End -->
+
+
+
+
+            <!-- Process Start -->
+            <div class="  py-5">
+                <div class="container py-5 px-lg-5 ">
+                    <div class="text-center pb-4 wow fadeInUp " data-wow-delay="0.1s">
+                        <h5 class="text-primary-gradient fw-medium">How It Works</h5>
+                        <h1 class="mb-5">4 Easy Steps</h1>
+                    </div>
+                    <div class="row gy-5 gx-4 justify-content-center mx-3" id="process">
+                        <div class="col-lg-3 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="position-relative bg-light rounded pt-5 pb-4 px-4 mx-1">
+                                <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow"
+                                    style="width: 100px; height: 100px;">
+                                    <i class="fa fa-address-card fa-3x text-white"></i>
+                                </div>
+                                <h5 class="mt-4 mb-3 text-primary-gradient ">Step:1</h5>
+                                <p class="mb-0 steps-text" style="text-align: justify;">Complete the form with your
+                                    basic details.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="position-relative bg-light rounded pt-5 pb-4 px-4 mx-1">
+                                <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow"
+                                    style="width: 100px; height: 100px;">
+                                    <i class="fa fa-check-circle fa-3x text-white"></i>
+                                </div>
+                                <h5 class="mt-4 mb-3 text-primary-gradient">Step:2</h5>
+                                <p class="mb-0 steps-text" style="text-align: justify; gap:0px;">Our team at F2 Fintech
+                                    will
+                                    review.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="position-relative bg-light rounded pt-5 pb-4 px-4 mx-1">
+                                <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow"
+                                    style="width: 100px; height: 100px;">
+                                    <i class="fa fa-check-circle fa-3x text-white"></i>
+                                </div>
+                                <h5 class="mt-4 mb-3 text-primary-gradient">Step:3</h5>
+                                <p class="mb-0 steps-text" style="text-align: justify; gap:0px;">Your information
+
+                                    verified, if meets the required criteria.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="position-relative bg-light rounded pt-5 pb-4 px-4 mx-1">
+                                <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow"
+                                    style="width: 100px; height: 100px;">
+                                    <i class="fa fa-thumbs-up fa-3x text-white"></i>
+                                </div>
+                                <h5 class="mt-4 mb-3 text-primary-gradient">Step:4</h5>
+                                <p class="mb-0 st-4 steps-text" style="text-align: justify;   ">Your loan will be
+                                    approved promptly.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial Start -->
+            <div class="  py-5" id="review">
+                <div class="container py-5 px-lg-5">
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <h5 class="text-primary-gradient fw-medium">Testimonial</h5>
+                        <h1 class="mb-5">What Say Our Clients!</h1>
+                    </div>
+                    <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="testimonial-item rounded p-4 mx-2">
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="ms-4">
+                                    <h5 class="mb-1"> <i class="fas fa-user text-black fs-4 icon-left"></i>Dr.Tanmay
+                                        Joshi</h5>
+                                    <p class="mb-1">Doctor</p>
+                                    <div>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="mb-0">The online process was quick and easy, also the loan approval was quite
+                                fast. The interest rate was competitive, and eveything was transparent with no hidden
+                                fees. Highly recommended!</p>
+                        </div>
+                        <div class="testimonial-item rounded p-4 mx-2">
+                            <div class="d-flex align-items-center mb-4">
+
+                                <div class="ms-4">
+                                    <h5 class="mb-1"><i class="fas fa-user text-black  fs-4 icon-left"></i> Dr.Medidi
+                                        Shee</h5>
+                                    <p class="mb-1">Doctor</p>
+                                    <div>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="mb-0">My loan with F2 Fintech was smooth, but what really impressed me was their
+                                ongoing support. They have a dedicated online portal for easy access to my loan details.
+                            </p>
+                        </div>
+                        <div class="testimonial-item rounded p-4 mx-2">
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="ms-4">
+                                    <h5 class="mb-1"> <i class="fas fa-user text-black  fs-4 icon-left"></i>Dr.
+                                        Hadinbhai
+                                        Mahadar</h5>
+                                    <p class="mb-1">Doctor</p>
+                                    <div>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="mb-0">Securing loan can often seem difficult but F2 Fintech made it a possitive
+                                experience. They not only provide the funds I needed, but also offered helpful financial
+                                tools and resources</p>
+                        </div>
+                        <div class="testimonial-item rounded p-4 mx-2">
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="ms-4">
+                                    <h5 class="mb-1"><i class="fas fa-user text-black fs-4 icon-left"></i> Nayni
+                                        Srividhya</h5>
+                                    <p class="mb-1">Doctor</p>
+                                    <div>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="mb-0"> I was nervous about applying for a loan thought F2 Fintech, but their
+                                customer service team was incredibly supportive . They solved all my queries related to
+                                loan and guided me throughout the process.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial End -->
+
+
+            <!-- contact form  -->
+
+            <div class="  py-5" id="contact">
+                <div class="container py-5 px-lg-5 form-div-contact">
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <h5 class="text-primary-gradient fw-medium">Contact Us</h5>
+                        <h1 class="mb-5">Get In Touch!</h1>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-9">
+                            <div class="wow fadeInUp" data-wow-delay="0.3s">
+                                <form id="contactForm">
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control" id="contactFormName" name="name"
+                                                    placeholder="Your Name" required>
+                                                <label for="name">Your Name</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-floating">
+                                                <input type="email" class="form-control" id="contactFormEmail"
+                                                    name="email" placeholder="Your Email" required>
+                                                <label for="email">Your Email</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control" id="contactFormContact"
+                                                    name="contact" placeholder="Contact" required>
+                                                <label for="contact">Contact</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-terms">
+                                                <label style="font-size: 12px;">
+                                                    <input type="checkbox" name="terms" required>
+                                                    <span style="color: black;">I agree to the </span>
+                                                    <a style="color:#02084d; font-size: 12px;">terms and
+                                                        conditions</a>
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 text-center">
+                                            <button class="btn btn-primary-gradient rounded-pill py-3 px-5"
+                                                type="submit" onclick="sendMail()">Send Message</button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div id="submissionMessage"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script>
+                document.getElementById('contactForm').addEventListener('submit', function (event) {
+                    event.preventDefault();
+
+                    alert('Form submitted');
+
+                    setTimeout(function () {
+                        document.getElementById('contactForm').submit();
+                    }, 3000);
+                });
+            </script>
+
+            <!-- Footer End -->
+            <div class="footer-new">
+                <p> We are a Global Electronic Marketplace for Buying & Selling Loans.
+                    Delegate your financial worries to us and focus on growing your core professionAs an award-winning
+                    fintech company, we remain dedicated to pushing boundaries, exceeding expectations, and making a
+                    meaningful difference in the lives of our customers.F2 Fintech Regd.
+                    Office: A-25, M-1 Arv Park, A-Block, Sector 63, Noida, Uttar Pradesh - 201301 ,
+                    57- 58, near Patel Nagar, South Patel Nagar, Block 8, Patel Nagar, Delhi, New Delhi, Delhi 110008,
+                    Senapati Bapat Marg | +918810600135 | wecare@f2fintech.cm | 12 BAJAJ COMPLEX Prem Nagar, Bareilly,
+                    Uttar Pradesh ,India -
+                    243001
+                    | C.E.O (Harpreet Singh & Abhinav Awal).<br> © 2024, F2 Fintech. All Rights Reserved
+                    <br><a href="https://f2fintech.com/disclaimer.html" target="blank">Disclaimer</a>© <a
+                        href="https://f2fintech.com/termsofuse.html">Privacy Policy</a> © <a
+                        href="https://f2fintech.com/termsofuse.html">Terms & Condition</a></p>
+
+            </div>
+
+
+            <!-- Back to Top -->
+            <a href="#" class="btn btn-lg btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up text-white"></i></a>
+        </div>
+
+        <!-- JavaScript Libraries -->
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+
+</body>
+
+</html>
