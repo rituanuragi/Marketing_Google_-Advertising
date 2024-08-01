@@ -135,13 +135,14 @@
                                 <script>
                                     document.getElementById('loanForm').addEventListener('submit', function (event) {
                                         event.preventDefault();
+
                                         const messageDiv = document.getElementById('submissionMessage');
                                         messageDiv.style.display = 'block';
                                         messageDiv.textContent = 'Form submitted';
                                         messageDiv.style.color = 'white';
                                         setTimeout(function () {
-                                            window.open('https://www.f2fintech.com/', '_blank');
-                                        }, 5000);
+                                            window.open('https://www.f2fintech.com', '_blank');
+                                        }, 3000);
                                     });
                                 </script>
 
@@ -228,7 +229,6 @@
                                     </div>
                                 </div>
                             </div>
-
 
                             <script>
                                 document.getElementById('loanForm1').addEventListener('submit', function (event) {
