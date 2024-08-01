@@ -127,8 +127,7 @@
                                             conditions</a>
                                         </label>
                                     </div>
-                                    <button type="submit" onclick="
-                                    sendMailGetLoan()">Apply Now</button>
+                                    <button type="submit" onclick="sendMailGetLoan()">Apply Now</button>
                                 </form>
 
                                 <div id="submissionMessage"></div>
@@ -141,11 +140,11 @@
                                         messageDiv.textContent = 'Form submitted';
                                         messageDiv.style.color = 'white';
                                         setTimeout(function () {
-                                            window.location.href = 'https://www.f2fintech.com/';
+                                            window.open('https://www.f2fintech.com/', '_blank');
                                         }, 5000);
-
                                     });
                                 </script>
+
                             </div>
                         </div>
                     </div>
@@ -234,13 +233,13 @@
                                 document.getElementById('loanForm1').addEventListener('submit', function (event) {
                                     event.preventDefault();
 
-                                    const messageDiv = document.getElementById('submissionMessage');
+                                    const messageDiv = document.getElementById('submissionMessage1');
                                     messageDiv.style.display = 'block';
                                     messageDiv.textContent = 'Form submitted';
+                                    messageDiv.style.color = 'white';
                                     setTimeout(function () {
-                                        window.location.href = 'https://www.f2fintech.com/';
-                                    }, 2000);
-
+                                        window.open('https://www.f2fintech.com', '_blank');
+                                    }, 3000);
                                 });
                             </script>
 
@@ -563,10 +562,11 @@
                 document.getElementById('contactForm').addEventListener('submit', function (event) {
                     event.preventDefault();
 
-                    alert('Form submitted');
+                    document.getElementById('submissionMessage').textContent =
+                        'Form submitted successfully.';
 
                     setTimeout(function () {
-                        document.getElementById('contactForm').submit();
+                        window.open('https://www.f2fintech.com', '_blank');
                     }, 3000);
                 });
             </script>
